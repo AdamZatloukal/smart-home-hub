@@ -4100,17 +4100,6 @@
 		)
 		(uuid "58d4b7f8-02bc-45e3-9c73-c9853b263fa5")
 	)
-	(text "CHOSE FUSE (4A)"
-		(exclude_from_sim no)
-		(at 219.202 30.734 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 255 0 6 1)
-			)
-		)
-		(uuid "5edb2fec-c746-4ce8-86a2-ecff7aae389c")
-	)
 	(text "ADD THERMAL PADS TO THE SCR"
 		(exclude_from_sim no)
 		(at 251.46 57.15 0)
@@ -4190,18 +4179,6 @@
 		)
 		(uuid "7d5c8f68-8fae-4f43-bbaa-4c93a877dddf")
 	)
-	(text "NOTE: Input voltage must be 5-6V"
-		(exclude_from_sim no)
-		(at 165.608 57.404 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 255 4 0 1)
-			)
-			(justify left)
-		)
-		(uuid "7f876a90-ce19-401f-b769-7621267fc184")
-	)
 	(text "50R"
 		(exclude_from_sim no)
 		(at 131.318 107.95 0)
@@ -4237,7 +4214,7 @@
 	)
 	(text "efuse would be cooler"
 		(exclude_from_sim no)
-		(at 181.61 55.626 0)
+		(at 192.278 57.15 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -4378,17 +4355,6 @@
 			(justify left)
 		)
 		(uuid "dc602385-2458-4149-b926-00dc7ed4de3f")
-	)
-	(text "try to find a better tyristor"
-		(exclude_from_sim no)
-		(at 217.932 46.482 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "fd086e98-42e2-4c4a-a9fd-862dcf202222")
 	)
 	(text "ESP32S3"
 		(exclude_from_sim no)
@@ -8465,7 +8431,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NZH6V2B,115"
+		(property "Value" "NZH5V6B,115"
 			(at 239.014 31.242 90)
 			(effects
 				(font
@@ -8492,7 +8458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.tme.eu/cz/details/nzh6v2b.115/zenerovy-diody-smd/nexperia/nzh6v2b-115/"
+		(property "Description" "https://www.tme.eu/cz/details/nzh5v6b.115/zenerovy-diody-smd/nexperia/nzh5v6b-115/"
 			(at 237.49 35.56 0)
 			(effects
 				(font
@@ -8687,7 +8653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/cz/details/0679h3000-05/pojistky-smd-2410-rychle/bel-fuse/"
 			(at 222.25 27.94 0)
 			(effects
 				(font
@@ -9355,7 +9321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESP32-project-footprints:TO255P460X1020X2005-3P"
+		(property "Footprint" "ESP32-project-footprints:TS820600B"
 			(at 252.73 38.1 90)
 			(effects
 				(font
@@ -9364,7 +9330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/d9f9d794eaaafeac8e57e572c3e994db/TYN612M.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/912e5f9b8296aac23d7a6d68608ab042/TS820.pdf"
 			(at 252.73 38.1 90)
 			(effects
 				(font
@@ -9373,7 +9339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.tme.eu/cz/details/tyn612mrg/tyristory-smd-tht/stmicroelectronics/"
+		(property "Description" "https://www.tme.eu/cz/details/ts820-600b/tyristory-smd-tht/stmicroelectronics/"
 			(at 252.73 38.1 0)
 			(effects
 				(font

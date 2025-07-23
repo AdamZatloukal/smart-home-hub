@@ -4379,6 +4379,17 @@
 		)
 		(uuid "dc602385-2458-4149-b926-00dc7ed4de3f")
 	)
+	(text "try to find a better tyristor (SMD)"
+		(exclude_from_sim no)
+		(at 217.932 46.482 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "fd086e98-42e2-4c4a-a9fd-862dcf202222")
+	)
 	(text "ESP32S3"
 		(exclude_from_sim no)
 		(at 165.1 71.374 0)

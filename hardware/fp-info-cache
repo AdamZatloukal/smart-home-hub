@@ -1,4 +1,4 @@
-25623859500603166
+25625628644546047
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59257,6 +59257,13 @@ Phototransistor
 ESP32-project-footprints
 TO255P460X1020X2005-3P
 BTA10-800CWRG
+SCR
+0
+3
+3
+ESP32-project-footprints
+TS820600B
+TS820-600B-2
 SCR
 0
 3
