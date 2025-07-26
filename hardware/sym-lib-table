@@ -15,4 +15,5 @@
   (lib (name "TYN612MRG")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/TYN612MRG.kicad_sym")(options "")(descr ""))
   (lib (name "DCJ200-10-A-K1-K")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/DCJ200-10-A-K1-K.kicad_sym")(options "")(descr ""))
   (lib (name "R1966ABLKBLKGR")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/R1966ABLKBLKGR.kicad_sym")(options "")(descr ""))
+  (lib (name "S3B-XH-SM4-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/S3B-XH-SM4-TB_LF__SN_.kicad_sym")(options "")(descr ""))
 )

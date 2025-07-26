@@ -1,4 +1,4 @@
-25625628644546047
+25627382630690692
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59212,6 +59212,13 @@ Switch
 0
 2
 2
+ESP32-project-footprints
+S3BXHSM4TBLFSN
+S3B-XH-SM4-TB(LF)(SN)-7
+Connector
+0
+5
+5
 ESP32-project-footprints
 SOD2512X110L
 SOD323
