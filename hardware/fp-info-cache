@@ -1,4 +1,4 @@
-25627382630690692
+25629136415995109
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59205,6 +59205,13 @@ GCT_USB4105-GF-A
 0
 16
 16
+ESP32-project-footprints
+MEM20750014001A
+MEM2075-00-140-01-A
+Connector
+0
+13
+13
 ESP32-project-footprints
 R1966ABLKBLKGR
 R1966ABLKBLKGR-1

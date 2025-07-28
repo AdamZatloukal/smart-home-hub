@@ -7771,7 +7771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0368c192-bd58-401e-a036-7c109ba305c3")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -7822,7 +7822,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7838,7 +7838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0487cbca-dc14-4a5b-a14b-7e62a43062e2")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 113.03 160.02 0)
 			(effects
 				(font
@@ -7889,7 +7889,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8550,7 +8550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e3f05c4-c2e8-442a-9c4f-3df1d2ba13e3")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 119.38 147.32 0)
 			(effects
 				(font
@@ -8600,7 +8600,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -8684,7 +8684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ebb4422-9de5-4250-95ed-0db5144a26c9")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 144.78 99.06 0)
 			(effects
 				(font
@@ -8735,7 +8735,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -8819,7 +8819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1063c198-480c-49a2-851a-8432b68accac")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 80.01 48.26 0)
 			(effects
 				(font
@@ -8870,7 +8870,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8886,7 +8886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c1ff98a-965f-4835-a6c2-6a6cc21ac154")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 26.67 93.98 0)
 			(effects
 				(font
@@ -8937,7 +8937,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8953,7 +8953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d1ff02a-57ca-413b-9b89-d51421d91adb")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 237.49 58.42 0)
 			(effects
 				(font
@@ -9004,7 +9004,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9020,7 +9020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ec1de77-c817-4efe-8529-e5a62a4657ed")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 74.93 93.98 0)
 			(effects
 				(font
@@ -9071,7 +9071,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -9087,7 +9087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1faeae4a-7f99-4111-9184-bdbc7618dcce")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 223.52 81.28 0)
 			(effects
 				(font
@@ -9138,7 +9138,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9288,7 +9288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2acfaf5c-e6da-46f1-bcfd-684e1de2e458")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 40.64 161.29 0)
 			(effects
 				(font
@@ -9339,7 +9339,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9433,7 +9433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36d18c17-225b-4ae5-b31d-c74f3f02b416")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 104.14 175.26 0)
 			(effects
 				(font
@@ -9484,7 +9484,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -9500,7 +9500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d29ac47-be03-42ba-9500-705f7732d9be")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 30.48 48.26 0)
 			(effects
 				(font
@@ -9551,7 +9551,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10240,7 +10240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b30b76d-c988-484b-a330-cbfbe40cf5c5")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 195.58 158.75 0)
 			(effects
 				(font
@@ -10291,7 +10291,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -10798,7 +10798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e667025-9006-4879-9ef3-a640a8c899fa")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 119.38 162.56 0)
 			(effects
 				(font
@@ -10849,7 +10849,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -10865,7 +10865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f284e86-409b-48f6-af33-16a109b55132")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -10916,7 +10916,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -11009,7 +11009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7433b1f8-91c5-4ea1-a522-371e3d2fcb0c")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 160.02 53.34 0)
 			(effects
 				(font
@@ -11060,7 +11060,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11076,7 +11076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7601eb74-1668-441e-a612-3bb028363fd8")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 207.01 158.75 0)
 			(effects
 				(font
@@ -11127,7 +11127,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -11142,7 +11142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7622a23c-c56d-41ef-b16c-f817d766b460")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 35.56 109.22 0)
 			(effects
 				(font
@@ -11192,7 +11192,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -11414,7 +11414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e590a03-8f48-4727-84ea-9080af95356a")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 100.33 119.38 0)
 			(effects
 				(font
@@ -11464,7 +11464,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -11480,7 +11480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ed833f7-06ed-450f-8ccb-76cb6babbcf7")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 144.78 88.9 0)
 			(effects
 				(font
@@ -11530,7 +11530,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11807,7 +11807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93bbc534-f540-4ba0-8963-7390764ba8e4")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 262.89 161.29 0)
 			(effects
 				(font
@@ -11858,7 +11858,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -11939,7 +11939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e4f735-dabc-43fc-b254-c021ae5157c3")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 153.67 99.06 0)
 			(effects
 				(font
@@ -11990,7 +11990,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -12076,7 +12076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b537290-7913-4a57-b3c5-c4d62225d910")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 270.51 30.48 0)
 			(effects
 				(font
@@ -12126,7 +12126,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -12142,7 +12142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c292078-a3d3-4d24-a6bb-0c75c3c6c172")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 134.62 99.06 0)
 			(effects
 				(font
@@ -12193,7 +12193,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -12209,7 +12209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f098874-1bcf-40b8-a072-4ff5a59078e6")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 39.37 48.26 0)
 			(effects
 				(font
@@ -12260,7 +12260,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12346,7 +12346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4b7cab0-9631-4754-a5bd-9122d6577f26")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 193.04 53.34 0)
 			(effects
 				(font
@@ -12397,7 +12397,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12413,7 +12413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7744fae-8191-4c4a-a4e0-32912a0c7e17")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -12464,7 +12464,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12624,7 +12624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3ccb39e-c81d-408b-838c-ebc7b6261094")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 35.56 130.81 0)
 			(effects
 				(font
@@ -12675,7 +12675,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -12761,7 +12761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8edb0fd-6e89-4927-80a8-2b76a5e6ce91")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 227.33 44.45 0)
 			(effects
 				(font
@@ -12812,7 +12812,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -12905,7 +12905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc84ccb0-4903-40f7-aaa7-874066e6b2db")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 30.48 36.83 0)
 			(effects
 				(font
@@ -12955,7 +12955,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12971,7 +12971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4de9d39-99b7-4abc-b44c-917745d59387")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR078"
 			(at 54.61 185.42 0)
 			(effects
 				(font
@@ -13022,7 +13022,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR077")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -13159,7 +13159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da28982a-49c6-4bef-b3d2-ab4cd3380e8e")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 217.17 91.44 0)
 			(effects
 				(font
@@ -13209,7 +13209,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -13359,7 +13359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dea9ebf8-7ef8-4684-b614-790e49f80999")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 91.44 35.56 0)
 			(effects
 				(font
@@ -13409,7 +13409,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13425,7 +13425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e138950a-22b2-4a17-8991-95d46a8a5d7c")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 134.62 88.9 0)
 			(effects
 				(font
@@ -13475,7 +13475,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -13566,7 +13566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed587af4-2604-4398-957e-600b85a5e9aa")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 153.67 88.9 0)
 			(effects
 				(font
@@ -13616,7 +13616,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -13700,7 +13700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f23eeb23-89b6-4c64-884a-f5debe108e12")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 91.44 55.88 0)
 			(effects
 				(font
@@ -13751,7 +13751,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -13767,7 +13767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4db1c1d-3e79-45d0-8908-5534377352d2")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 217.17 158.75 0)
 			(effects
 				(font
@@ -13818,7 +13818,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -13975,7 +13975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa185038-bf3f-4ef0-ace8-16a8ffcc93a2")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 60.96 50.8 0)
 			(effects
 				(font
@@ -14026,7 +14026,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
