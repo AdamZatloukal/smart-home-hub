@@ -148,7 +148,7 @@
 	)
 	(pad "1" thru_hole oval
 		(at 0 14)
-		(size 5.5 2.5)
+		(size 6 2.5)
 		(drill oval 5.2 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -156,7 +156,7 @@
 	)
 	(pad "2" thru_hole oval
 		(at 0 7)
-		(size 5.5 2.5)
+		(size 6 2.5)
 		(drill oval 5.2 1.2)
 		(layers "*.Cu" "*.Mask" "Dwgs.User")
 		(remove_unused_layers no)
