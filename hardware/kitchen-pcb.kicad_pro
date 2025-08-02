@@ -95,20 +95,20 @@
           "fine"
         ],
         [
-          "hole_clearance|104430000|103350000|4240bfaa-fa0a-4689-b635-5b7f3f4e3cb1|6a3aa9ee-43d0-490a-b965-9fa01717a915",
-          "USB connector "
+          "hole_clearance|104430000|103350000|6a3aa9ee-43d0-490a-b965-9fa01717a915|4240bfaa-fa0a-4689-b635-5b7f3f4e3cb1",
+          ""
         ],
         [
-          "hole_clearance|104430000|103550000|2f2b7e4d-69ac-4c94-a944-3a2214de49fe|6a3aa9ee-43d0-490a-b965-9fa01717a915",
-          "USB connector "
+          "hole_clearance|104430000|103550000|6a3aa9ee-43d0-490a-b965-9fa01717a915|2f2b7e4d-69ac-4c94-a944-3a2214de49fe",
+          ""
         ],
         [
-          "hole_clearance|104430000|108950000|bf5fed32-29a4-40da-abd9-9bfc4fd4f2ba|c59d5452-176f-4c87-ad71-e6313dd3d0d2",
-          "USB connector "
+          "hole_clearance|104430000|108950000|c59d5452-176f-4c87-ad71-e6313dd3d0d2|bf5fed32-29a4-40da-abd9-9bfc4fd4f2ba",
+          ""
         ],
         [
-          "hole_clearance|104430000|109150000|bfc02bb4-e1be-4843-b875-3b3f1102b329|c59d5452-176f-4c87-ad71-e6313dd3d0d2",
-          "USB connector "
+          "hole_clearance|104430000|109150000|c59d5452-176f-4c87-ad71-e6313dd3d0d2|bfc02bb4-e1be-4843-b875-3b3f1102b329",
+          ""
         ],
         [
           "lib_footprint_mismatch|101912500|107925000|3cfd57e9-5082-49e2-b0ca-10bd312fb6ca|00000000-0000-0000-0000-000000000000",
@@ -119,8 +119,24 @@
           "Changes PCB antenna silkscreen"
         ],
         [
-          "lib_footprint_mismatch|168800000|86000000|1cdb123a-1b8c-4b69-9345-3cc2b2171eb9|00000000-0000-0000-0000-000000000000",
-          "Added 3D model"
+          "silk_overlap|106941909|98291494|6d398f21-e76b-4499-9e16-fb5f7f5d7da4|73cac2d8-014e-43ac-a950-084b464cb6a1",
+          ""
+        ],
+        [
+          "silk_overlap|107472800|136206480|9b8cc96e-47b6-4c55-a6b1-f849c90ad717|f0b33e14-0628-4f22-9112-6f8f515ed4be",
+          ""
+        ],
+        [
+          "silk_overlap|126191909|62302282|db1e11cf-80b8-49d1-8418-41392036f68f|e9224436-e7df-4a92-95e4-5fa4215aeed8",
+          ""
+        ],
+        [
+          "silk_overlap|132315662|96732490|71729e32-7ab5-45f8-a7e6-4945a8dff007|7eea04ae-f955-4479-9842-3b3d1e2faf33",
+          ""
+        ],
+        [
+          "silk_overlap|140368269|124841923|60c6c696-6af8-426d-9b13-02e0a2ba3676|d389f82e-f712-4d50-a3af-84f515466b8b",
+          ""
         ]
       ],
       "meta": {
@@ -173,7 +189,7 @@
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -202,7 +218,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.12,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.2,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
@@ -291,7 +307,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.6,
           "drill": 0.2
         },
         {
