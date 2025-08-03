@@ -117,18 +117,6 @@
         [
           "lib_footprint_mismatch|110000000|71500000|4caa3417-d611-461f-8e35-dbc85230e191|00000000-0000-0000-0000-000000000000",
           "Changes PCB antenna silkscreen"
-        ],
-        [
-          "silk_overlap|107472800|136206480|9b8cc96e-47b6-4c55-a6b1-f849c90ad717|f0b33e14-0628-4f22-9112-6f8f515ed4be",
-          ""
-        ],
-        [
-          "silk_overlap|126191909|62302282|db1e11cf-80b8-49d1-8418-41392036f68f|e9224436-e7df-4a92-95e4-5fa4215aeed8",
-          ""
-        ],
-        [
-          "silk_overlap|132315662|96732490|71729e32-7ab5-45f8-a7e6-4945a8dff007|7eea04ae-f955-4479-9842-3b3d1e2faf33",
-          ""
         ]
       ],
       "meta": {
