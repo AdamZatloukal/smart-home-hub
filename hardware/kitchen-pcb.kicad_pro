@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.45,
+          "width": 1.175
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.4,
+          "width": 0.1735
         },
         {
           "gap": 0.3,
@@ -68,7 +73,64 @@
           "width": 0.35
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_symbol_mismatch|128500000|78500000|00762d20-53e5-4670-ab17-52fb642424b8|00000000-0000-0000-0000-000000000000",
+          "fine"
+        ],
+        [
+          "footprint_symbol_mismatch|135250000|86500000|827547b0-1af1-440d-94d3-b73f0e338c36|00000000-0000-0000-0000-000000000000",
+          "fine"
+        ],
+        [
+          "footprint_symbol_mismatch|138500000|86500000|ed28b801-84c7-475d-95b5-aab407381730|00000000-0000-0000-0000-000000000000",
+          "fine"
+        ],
+        [
+          "footprint_symbol_mismatch|142000000|86500000|3af0a97b-acf4-4d66-9782-bae914d0115c|00000000-0000-0000-0000-000000000000",
+          "fine"
+        ],
+        [
+          "footprint_symbol_mismatch|153500000|86500000|7c5ae364-7158-4c2f-87bc-609776a3460d|00000000-0000-0000-0000-000000000000",
+          "fine"
+        ],
+        [
+          "hole_clearance|104430000|103350000|6a3aa9ee-43d0-490a-b965-9fa01717a915|4240bfaa-fa0a-4689-b635-5b7f3f4e3cb1",
+          ""
+        ],
+        [
+          "hole_clearance|104430000|103550000|6a3aa9ee-43d0-490a-b965-9fa01717a915|2f2b7e4d-69ac-4c94-a944-3a2214de49fe",
+          ""
+        ],
+        [
+          "hole_clearance|104430000|108950000|c59d5452-176f-4c87-ad71-e6313dd3d0d2|bf5fed32-29a4-40da-abd9-9bfc4fd4f2ba",
+          ""
+        ],
+        [
+          "hole_clearance|104430000|109150000|c59d5452-176f-4c87-ad71-e6313dd3d0d2|bfc02bb4-e1be-4843-b875-3b3f1102b329",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|101912500|107925000|3cfd57e9-5082-49e2-b0ca-10bd312fb6ca|00000000-0000-0000-0000-000000000000",
+          "Moved ."
+        ],
+        [
+          "lib_footprint_mismatch|110000000|71500000|4caa3417-d611-461f-8e35-dbc85230e191|00000000-0000-0000-0000-000000000000",
+          "Changes PCB antenna silkscreen"
+        ],
+        [
+          "silk_overlap|107472800|136206480|9b8cc96e-47b6-4c55-a6b1-f849c90ad717|f0b33e14-0628-4f22-9112-6f8f515ed4be",
+          ""
+        ],
+        [
+          "silk_overlap|126191909|62302282|db1e11cf-80b8-49d1-8418-41392036f68f|e9224436-e7df-4a92-95e4-5fa4215aeed8",
+          ""
+        ],
+        [
+          "silk_overlap|132315662|96732490|71729e32-7ab5-45f8-a7e6-4945a8dff007|7eea04ae-f955-4479-9842-3b3d1e2faf33",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -119,7 +181,7 @@
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -146,11 +208,11 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.12,
+        "min_via_annular_width": 0.2,
+        "min_via_diameter": 0.3,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -158,14 +220,14 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -176,7 +238,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -187,7 +249,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -199,6 +261,8 @@
       ],
       "track_widths": [
         0.0,
+        0.1565,
+        0.1735,
         0.3,
         0.5,
         2.0
@@ -233,6 +297,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.2
         },
         {
           "diameter": 0.7,
@@ -653,7 +721,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.1565,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -670,7 +738,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.1735,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6

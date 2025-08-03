@@ -55,46 +55,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -7.7 -3.3)
-		(end -7.7 17.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a0de1842-d024-4c3c-975a-e735ed9cd15e")
-	)
-	(fp_line
-		(start -7.7 17.7)
-		(end 7.3 17.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7030b443-9bd8-4581-9d3e-7db1def5b20b")
-	)
-	(fp_line
-		(start 7.3 -3.3)
-		(end -7.7 -3.3)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a84660a0-714b-4747-968c-9c97fef938de")
-	)
-	(fp_line
-		(start 7.3 17.7)
-		(end 7.3 -3.3)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "83e9e6b4-1527-49ec-9869-630309a63680")
-	)
-	(fp_line
 		(start -8.2 -4)
 		(end 7.8 -4)
 		(stroke
@@ -148,7 +108,7 @@
 	)
 	(pad "1" thru_hole oval
 		(at 0 14)
-		(size 5.5 2.5)
+		(size 6 2.5)
 		(drill oval 5.2 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -156,7 +116,7 @@
 	)
 	(pad "2" thru_hole oval
 		(at 0 7)
-		(size 5.5 2.5)
+		(size 6 2.5)
 		(drill oval 5.2 1.2)
 		(layers "*.Cu" "*.Mask" "Dwgs.User")
 		(remove_unused_layers no)
@@ -165,12 +125,6 @@
 	(group ""
 		(uuid "737cf0e3-ac22-4f46-8b0c-09a51e9cf9a4")
 		(members "c50d6d51-0e3e-43b6-b3dc-2da15e460854" "c7306346-ff77-46e3-8911-f183fb112e78")
-	)
-	(group ""
-		(uuid "3ae88b45-f831-44b7-9198-dc49ebee1a25")
-		(members "7030b443-9bd8-4581-9d3e-7db1def5b20b" "83e9e6b4-1527-49ec-9869-630309a63680"
-			"a0de1842-d024-4c3c-975a-e735ed9cd15e" "a84660a0-714b-4747-968c-9c97fef938de"
-		)
 	)
 	(group ""
 		(uuid "81cf77cf-ffe9-4c7e-ad52-2e488df87a12")
