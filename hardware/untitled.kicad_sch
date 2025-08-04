@@ -4113,7 +4113,7 @@
 	)
 	(text "R10k"
 		(exclude_from_sim no)
-		(at 131.572 104.14 0)
+		(at 131.572 105.156 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -4146,18 +4146,6 @@
 		)
 		(uuid "521509f2-b7cd-4dcb-a346-95b3b25ed759")
 	)
-	(text "R4k7"
-		(exclude_from_sim no)
-		(at 131.572 105.41 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-				(color 39 255 0 1)
-			)
-			(href "https://www.tme.eu/cz/details/rc0603fr-074k7/rezistory-smd/yageo/rc0603fr-074k7l/")
-		)
-		(uuid "52c33961-dba4-4b99-b615-160a0850d192")
-	)
 	(text "0 - reset\n1 - execute"
 		(exclude_from_sim no)
 		(at 204.978 98.806 0)
@@ -4184,7 +4172,7 @@
 	)
 	(text "100 nF"
 		(exclude_from_sim no)
-		(at 130.048 102.87 0)
+		(at 130.048 103.886 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -8388,7 +8376,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "B320AE-13"
 			(at 110.8075 142.24 0)
 			(effects
 				(font
@@ -9270,7 +9258,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "B320AE-13"
 			(at 254.254 24.384 0)
 			(effects
 				(font
@@ -10836,7 +10824,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "73301aa7-da38-4daf-8813-4475425b1812")
 		(property "Reference" "C12"
 			(at 137.16 89.916 0)
@@ -10883,7 +10871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "(NC)"
+		(property "Note" "NC"
 			(at 138.938 93.98 0)
 			(effects
 				(font

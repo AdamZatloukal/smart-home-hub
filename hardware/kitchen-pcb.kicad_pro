@@ -59,18 +59,18 @@
         },
         {
           "gap": 0.3,
-          "via_gap": 0.4,
-          "width": 0.1735
-        },
-        {
-          "gap": 0.3,
           "via_gap": 0.35,
-          "width": 0.3
+          "width": 0.3343
         },
         {
           "gap": 0.3,
           "via_gap": 0.4,
-          "width": 0.35
+          "width": 0.3343
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.4,
+          "width": 0.3343
         }
       ],
       "drc_exclusions": [
@@ -97,6 +97,14 @@
         [
           "lib_footprint_mismatch|110000000|71500000|4caa3417-d611-461f-8e35-dbc85230e191|00000000-0000-0000-0000-000000000000",
           "Changes PCB antenna silkscreen"
+        ],
+        [
+          "silk_overlap|163034972|118250000|1dce43e0-89bc-49aa-aa73-8b587d3158dd|758639da-2501-4bb8-8783-0e9632efa852",
+          ""
+        ],
+        [
+          "silk_overlap|167750000|118348984|3c2cee86-1608-42f8-8565-c32c9447aac3|758639da-2501-4bb8-8783-0e9632efa852",
+          ""
         ]
       ],
       "meta": {
@@ -229,9 +237,10 @@
       ],
       "track_widths": [
         0.0,
-        0.1565,
-        0.1735,
+        0.2,
         0.3,
+        0.3343,
+        0.3493,
         0.5,
         2.0
       ],
@@ -587,7 +596,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.3493,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -621,7 +630,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.3493,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -638,7 +647,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.3493,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -655,7 +664,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.3493,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -689,7 +698,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1565,
+        "track_width": 0.3493,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -697,8 +706,8 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.3,
+        "diff_pair_width": 0.3343,
         "line_style": 0,
         "microvia_diameter": 0.4,
         "microvia_drill": 0.1,
@@ -706,7 +715,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1735,
+        "track_width": 0.3343,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
