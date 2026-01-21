@@ -101,51 +101,11 @@
           ""
         ],
         [
-          "silk_overlap|125974972|88500000|1dce43e0-89bc-49aa-aa73-8b587d3158dd|758639da-2501-4bb8-8783-0e9632efa852",
+          "silk_overlap|157474972|134000000|1dce43e0-89bc-49aa-aa73-8b587d3158dd|758639da-2501-4bb8-8783-0e9632efa852",
           ""
         ],
         [
-          "silk_overlap|130690000|88598984|3c2cee86-1608-42f8-8565-c32c9447aac3|758639da-2501-4bb8-8783-0e9632efa852",
-          ""
-        ],
-        [
-          "text_thickness|107250000|116000000|6d398f21-e76b-4499-9e16-fb5f7f5d7da4|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|108500000|140500000|a36e58e5-9db2-4e55-833a-0a8f183baa60|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|117750000|94750000|cd01ee28-f6e9-435c-97ba-4ff18dec5fca|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|126000000|62500000|db1e11cf-80b8-49d1-8418-41392036f68f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|129625000|99500000|71729e32-7ab5-45f8-a7e6-4945a8dff007|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|130000000|140500000|5829631d-f4cb-4ce8-800f-97f0c01c74d5|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|130660000|88240000|758639da-2501-4bb8-8783-0e9632efa852|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|148000000|116740000|60c6c696-6af8-426d-9b13-02e0a2ba3676|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|156250000|111000000|9b5c2cf9-2aab-4605-a82b-b86b680c0953|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|163250000|114250000|3300dd18-cff7-4e38-ab8e-81ca8315e18e|00000000-0000-0000-0000-000000000000",
+          "silk_overlap|162190000|134098984|3c2cee86-1608-42f8-8565-c32c9447aac3|758639da-2501-4bb8-8783-0e9632efa852",
           ""
         ]
       ],
@@ -196,9 +156,9 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -229,7 +189,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -719,6 +679,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "09f81662-95cc-469f-af04-c6a14137ce30",
+      "Root"
+    ],
+    [
+      "88485db4-61a5-4171-9283-b7e1247b6206",
+      "ESP32"
+    ],
+    [
+      "d0a1468d-38c2-43a7-9b47-fee3003b7605",
+      "Programming"
+    ]
+  ],
   "text_variables": {}
 }

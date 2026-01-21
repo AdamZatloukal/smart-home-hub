@@ -3130,6 +3130,18 @@
 		)
 		(uuid "5a6b5bd7-2da6-4270-ac44-fa8cc1304d67")
 	)
+	(text "Wrong symbol!!!\nThese are unidirectional (but Im lazy)\n50pF capacitance may be too high"
+		(exclude_from_sim no)
+		(at 21.844 72.644 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "6b0e7e97-4741-45d2-93d9-c53ebbefe3c3")
+	)
 	(text "GPIO matrix(PAGE 487)"
 		(exclude_from_sim no)
 		(at 18.796 184.15 0)
@@ -3164,6 +3176,7 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
+				(color 41 255 0 1)
 			)
 		)
 		(uuid "7cf703ca-7abb-4d80-bfbf-b8c906f6dba7")
@@ -3220,7 +3233,7 @@
 	)
 	(text "Test points"
 		(exclude_from_sim no)
-		(at 116.84 153.67 0)
+		(at 94.234 153.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3327,7 +3340,7 @@
 		(uuid "2fe1d83e-76d7-40d0-84b0-0d17a1739819")
 	)
 	(junction
-		(at 156.21 175.26)
+		(at 161.29 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "410fc925-b6cb-4bc3-980f-5c1316eef64b")
@@ -3343,12 +3356,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "597ffddc-54c6-479c-9e99-47eeb7c8d98e")
-	)
-	(junction
-		(at 156.21 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fd76dd5-e706-4b4f-a5d9-c3a8767db4e0")
 	)
 	(junction
 		(at 36.83 149.86)
@@ -3373,6 +3380,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1451a5b-3a8a-4887-8107-c8b919cf5e90")
+	)
+	(junction
+		(at 161.29 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b397a348-3857-4413-a1b8-872839ff2c8f")
 	)
 	(junction
 		(at 69.85 45.72)
@@ -3440,7 +3453,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 154.94) (xy 137.16 154.94)
+			(xy 88.9 154.94) (xy 137.16 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +3573,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 193.04) (xy 111.76 193.04)
+			(xy 137.16 195.58) (xy 88.9 195.58)
 		)
 		(stroke
 			(width 0)
@@ -3968,6 +3981,16 @@
 		)
 		(uuid "60f9e97d-8bde-4bb4-a6f9-d687f4b551a9")
 	)
+	(wire
+		(pts
+			(xy 161.29 171.45) (xy 161.29 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62af4906-f639-4758-abb5-dad7f4126fc5")
+	)
 	(polyline
 		(pts
 			(xy 20.32 15.24) (xy 152.4 15.24)
@@ -4000,7 +4023,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 154.94) (xy 137.16 193.04)
+			(xy 137.16 154.94) (xy 137.16 195.58)
 		)
 		(stroke
 			(width 0)
@@ -4037,16 +4060,6 @@
 			(type default)
 		)
 		(uuid "6e39b149-a535-40ee-98e9-ee0f8e09aa2a")
-	)
-	(wire
-		(pts
-			(xy 156.21 170.18) (xy 156.21 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f9a291f-1ff4-477c-8563-aff9e3d37201")
 	)
 	(polyline
 		(pts
@@ -4450,7 +4463,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 175.26) (xy 156.21 179.07)
+			(xy 161.29 177.8) (xy 161.29 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4510,7 +4523,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 154.94) (xy 111.76 193.04)
+			(xy 88.9 154.94) (xy 88.9 195.58)
 		)
 		(stroke
 			(width 0)
@@ -4740,7 +4753,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 162.56) (xy 156.21 170.18)
+			(xy 161.29 165.1) (xy 161.29 171.45)
 		)
 		(stroke
 			(width 0)
@@ -11179,7 +11192,7 @@
 	)
 	(global_label "SPI2_CS_SD"
 		(shape input)
-		(at 123.19 181.61 0)
+		(at 123.19 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11189,7 +11202,7 @@
 		)
 		(uuid "02c34cec-49dd-4a19-8ed8-c89e68fb3a9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.1112 181.61 0)
+			(at 133.1112 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,6 +11322,28 @@
 			)
 		)
 	)
+	(global_label "MIC_I2S_WS"
+		(shape input)
+		(at 97.79 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "31d66d03-011f-4faf-9e2a-c0453d602718")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.5418 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO17"
 		(shape input)
 		(at 168.91 92.71 90)
@@ -11322,6 +11357,50 @@
 		(uuid "35be6c4f-3ec8-42c3-b6ca-0a4a682188e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.91 85.7945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MIC_I2S_DO"
+		(shape input)
+		(at 97.79 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "38743e4a-4359-42e9-b6e2-2d40243e462c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.4994 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIGHT_ADC2"
+		(shape output)
+		(at 123.19 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "3885ed58-d280-463c-b531-4584bd188546")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.9841 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11419,6 +11498,28 @@
 			)
 		)
 	)
+	(global_label "MIC_I2S_SCK"
+		(shape input)
+		(at 97.79 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "584ea9f8-c99d-416a-9962-2f0d748cab85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.3038 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI2_SCK"
 		(shape input)
 		(at 44.45 50.8 180)
@@ -11437,6 +11538,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMP_HUM_I2C_SDA"
+		(shape bidirectional)
+		(at 97.79 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "76e35eed-4b69-431a-8345-ae7d56f6e449")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.6112 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11487,7 +11610,7 @@
 	)
 	(global_label "SPI2_NCS_FLASH"
 		(shape input)
-		(at 123.19 187.96 0)
+		(at 123.19 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11497,7 +11620,7 @@
 		)
 		(uuid "92deb014-8176-4873-8e70-39efbdd83657")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.3285 187.96 0)
+			(at 136.3285 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11617,9 +11740,31 @@
 			)
 		)
 	)
+	(global_label "TEMP_HUM_I2C_SCL"
+		(shape input)
+		(at 97.79 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "bd324d6e-391f-46eb-a093-b0ea4a15b13c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.791 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI2_MISO"
 		(shape input)
-		(at 123.19 168.91 0)
+		(at 123.19 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11629,7 +11774,7 @@
 		)
 		(uuid "c558e4de-1804-420a-b23c-ce856c74eb02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.1798 168.91 0)
+			(at 132.1798 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11685,7 +11830,7 @@
 	)
 	(global_label "SPI2_MOSI"
 		(shape input)
-		(at 123.19 175.26 0)
+		(at 123.19 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11695,7 +11840,7 @@
 		)
 		(uuid "d011eb98-ea67-4e2c-9220-c567e5033d3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.1798 175.26 0)
+			(at 132.1798 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11751,7 +11896,7 @@
 	)
 	(global_label "SPI2_SCK"
 		(shape input)
-		(at 123.19 162.56 0)
+		(at 123.19 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11761,7 +11906,29 @@
 		)
 		(uuid "df742c49-0ada-4751-a311-5c23e875fbfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.5872 162.56 0)
+			(at 131.5872 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MIC_I2S_SEL"
+		(shape input)
+		(at 97.79 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "dfcf0922-502b-4175-ab7f-52e2e230f233")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.0498 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12109,15 +12276,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 123.19 187.96 90)
+		(at 123.19 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0bd883fb-5b5c-485d-8053-a58eafd56a05")
-		(property "Reference" "TP5"
-			(at 119.888 183.896 90)
+		(property "Reference" "TP10"
+			(at 116.586 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12125,15 +12292,16 @@
 			)
 		)
 		(property "Value" "Test_NCS_FLASH"
-			(at 119.888 185.42 90)
+			(at 119.888 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 123.19 182.88 0)
+			(at 123.19 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12142,7 +12310,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 182.88 0)
+			(at 123.19 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12151,7 +12319,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 123.19 187.96 0)
+			(at 123.19 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12165,7 +12333,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
-					(reference "TP5")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -12232,6 +12400,71 @@
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "117c61b7-fb72-4feb-9599-54961bdf16bb")
+		(property "Reference" "TP12"
+			(at 116.586 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test_NCS_FLASH"
+			(at 119.888 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95a9a1db-51e0-4e2c-a386-5edee5520945")
+		)
+		(instances
+			(project "kitchen-pcb"
+				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -12571,15 +12804,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 123.19 162.56 90)
+		(at 123.19 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1b71f464-b7c4-41a9-a5e2-dd002989d05d")
-		(property "Reference" "TP1"
-			(at 119.888 157.988 90)
+		(property "Reference" "TP2"
+			(at 116.078 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12587,15 +12820,16 @@
 			)
 		)
 		(property "Value" "Test_SCK"
-			(at 119.888 160.02 90)
+			(at 119.888 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 123.19 157.48 0)
+			(at 123.19 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12604,7 +12838,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 157.48 0)
+			(at 123.19 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12613,7 +12847,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 123.19 162.56 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12627,7 +12861,7 @@
 		(instances
 			(project ""
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -12830,15 +13064,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 123.19 181.61 90)
+		(at 123.19 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1e3b51a1-d3e0-4125-904e-ed29ce15d8f6")
-		(property "Reference" "TP4"
-			(at 119.888 177.546 90)
+		(property "Reference" "TP8"
+			(at 116.586 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12846,15 +13080,16 @@
 			)
 		)
 		(property "Value" "Test_CS_SD"
-			(at 119.888 179.07 90)
+			(at 119.888 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 123.19 176.53 0)
+			(at 123.19 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12863,7 +13098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 176.53 0)
+			(at 123.19 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12872,7 +13107,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 123.19 181.61 0)
+			(at 123.19 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12886,7 +13121,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
-					(reference "TP4")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -13205,6 +13440,71 @@
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "238d2fba-450d-4658-865d-6d1b5dd46bf1")
+		(property "Reference" "TP7"
+			(at 91.44 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test_MISO"
+			(at 94.488 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 97.79 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01267710-d351-482b-8d53-8724916fa8ac")
+		)
+		(instances
+			(project "kitchen-pcb"
+				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -13552,15 +13852,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 123.19 175.26 90)
+		(at 123.19 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2c2bd81f-ca38-43f0-a179-fb9b19f29b45")
-		(property "Reference" "TP3"
-			(at 119.888 170.942 90)
+		(property "Reference" "TP6"
+			(at 116.332 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13568,15 +13868,16 @@
 			)
 		)
 		(property "Value" "Test_MOSI"
-			(at 119.888 172.72 90)
+			(at 119.888 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 123.19 170.18 0)
+			(at 123.19 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13585,7 +13886,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 170.18 0)
+			(at 123.19 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13594,7 +13895,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 123.19 175.26 0)
+			(at 123.19 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13608,7 +13909,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
-					(reference "TP3")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -13826,7 +14127,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 153.67 170.18 90)
+		(at 158.75 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13834,7 +14135,7 @@
 		(dnp no)
 		(uuid "4254f68c-d88b-429c-ac5e-254b1291ec69")
 		(property "Reference" "H2"
-			(at 152.654 167.132 90)
+			(at 153.162 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13842,7 +14143,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 152.4 166.37 90)
+			(at 157.48 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13851,7 +14152,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 153.67 170.18 0)
+			(at 158.75 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13860,7 +14161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 170.18 0)
+			(at 158.75 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13869,7 +14170,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 153.67 170.18 0)
+			(at 158.75 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13907,7 +14208,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3L1BA,115"
+		(property "Value" "UCLAMP3301D.TCT"
 			(at 88.138 62.23 90)
 			(effects
 				(font
@@ -13925,7 +14226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/0b3db9476c050048835f98fc121e7f5f/PESD3V3L1BA.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/aa8e311704b48c9a68d77d81e0c0adf5/uclamp3301d.pdf"
 			(at 69.85 64.77 0)
 			(effects
 				(font
@@ -13934,7 +14235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.tme.eu/cz/details/pesd3v3l1ba.115/diody-obousmerne-tvs-smd/nexperia/pesd3v3l1ba-115/"
+		(property "Description" "https://www.tme.eu/cz/details/uclamp3301d.tct/diody-jednosmerne-tvs-smd/semtech/"
 			(at 69.85 64.77 0)
 			(effects
 				(font
@@ -14428,7 +14729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "https://www.tme.eu/cz/details/fyls-0603ubc/diody-led-smd-barevne/foryard/"
 			(at 168.91 104.14 0)
 			(effects
 				(font
@@ -14798,25 +15099,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 153.67 162.56 90)
+		(lib_id "Connector:TestPoint")
+		(at 97.79 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "783289b7-b9b5-4efc-8780-d563b809a543")
-		(property "Reference" "H1"
-			(at 152.4 156.21 90)
+		(uuid "766458a8-aa52-4af0-af2a-3010d51bf127")
+		(property "Reference" "TP5"
+			(at 91.186 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 152.4 158.75 90)
+		(property "Value" "Test_SCK"
+			(at 94.488 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14824,8 +15124,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 153.67 162.56 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 97.79 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14834,7 +15134,72 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 162.56 0)
+			(at 97.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d0cb8c5-e350-4403-af7d-fd648de698f3")
+		)
+		(instances
+			(project "kitchen-pcb"
+				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 158.75 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "783289b7-b9b5-4efc-8780-d563b809a543")
+		(property "Reference" "H1"
+			(at 153.416 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 157.48 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 158.75 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14843,7 +15208,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 153.67 162.56 0)
+			(at 158.75 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15025,7 +15390,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "5k1"
 			(at 185.42 38.0999 0)
 			(effects
 				(font
@@ -15034,7 +15399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 184.658 36.83 90)
 			(effects
 				(font
@@ -15137,6 +15502,71 @@
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ec4b657-bc1e-4d53-8537-4ea797ce494d")
+		(property "Reference" "TP11"
+			(at 91.44 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test_CS_SD"
+			(at 94.488 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 97.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a597d66-14ca-4a57-bd26-48615af03ad2")
+		)
+		(instances
+			(project "kitchen-pcb"
+				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -15482,6 +15912,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0868ec1-8374-42a2-a0d8-b9fccde24b09")
+		(property "Reference" "TP1"
+			(at 91.186 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test_SCK"
+			(at 94.488 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 97.79 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "823f8073-f1a1-4d62-998d-b95d0e103584")
+		)
+		(instances
+			(project "kitchen-pcb"
+				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SHT30-DIS-B:SHT30-DIS-B")
 		(at 213.36 41.91 0)
 		(unit 1)
@@ -15746,7 +16241,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3L1BA,115"
+		(property "Value" "UCLAMP3301D.TCT"
 			(at 88.138 64.262 90)
 			(effects
 				(font
@@ -15764,7 +16259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/0b3db9476c050048835f98fc121e7f5f/PESD3V3L1BA.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/aa8e311704b48c9a68d77d81e0c0adf5/uclamp3301d.pdf"
 			(at 54.61 64.77 0)
 			(effects
 				(font
@@ -15773,7 +16268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.tme.eu/cz/details/pesd3v3l1ba.115/diody-obousmerne-tvs-smd/nexperia/pesd3v3l1ba-115/"
+		(property "Description" "https://www.tme.eu/cz/details/uclamp3301d.tct/diody-jednosmerne-tvs-smd/semtech/"
 			(at 54.61 64.77 0)
 			(effects
 				(font
@@ -16159,7 +16654,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "5k1"
 			(at 177.292 38.1 0)
 			(effects
 				(font
@@ -16168,7 +16663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 177.038 36.83 90)
 			(effects
 				(font
@@ -16362,7 +16857,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3L1BA,115"
+		(property "Value" "UCLAMP3301D.TCT"
 			(at 88.138 70.358 90)
 			(effects
 				(font
@@ -16380,7 +16875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/0b3db9476c050048835f98fc121e7f5f/PESD3V3L1BA.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/aa8e311704b48c9a68d77d81e0c0adf5/uclamp3301d.pdf"
 			(at 46.99 64.77 0)
 			(effects
 				(font
@@ -16389,7 +16884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.tme.eu/cz/details/pesd3v3l1ba.115/diody-obousmerne-tvs-smd/nexperia/pesd3v3l1ba-115/"
+		(property "Description" "https://www.tme.eu/cz/details/uclamp3301d.tct/diody-jednosmerne-tvs-smd/semtech/"
 			(at 46.99 64.77 0)
 			(effects
 				(font
@@ -16693,7 +17188,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 153.67 175.26 90)
+		(at 158.75 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16701,7 +17196,7 @@
 		(dnp no)
 		(uuid "dde27ddd-b157-43a1-999c-2aaf44535ab1")
 		(property "Reference" "H3"
-			(at 152.4 171.958 90)
+			(at 153.416 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16709,7 +17204,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 152.4 171.45 90)
+			(at 157.48 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16718,7 +17213,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 153.67 175.26 0)
+			(at 158.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16727,7 +17222,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 175.26 0)
+			(at 158.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16736,7 +17231,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 153.67 175.26 0)
+			(at 158.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16774,7 +17269,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3L1BA,115"
+		(property "Value" "UCLAMP3301D.TCT"
 			(at 88.138 66.294 90)
 			(effects
 				(font
@@ -16792,7 +17287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/0b3db9476c050048835f98fc121e7f5f/PESD3V3L1BA.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/aa8e311704b48c9a68d77d81e0c0adf5/uclamp3301d.pdf"
 			(at 62.23 64.77 0)
 			(effects
 				(font
@@ -16801,7 +17296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.tme.eu/cz/details/pesd3v3l1ba.115/diody-obousmerne-tvs-smd/nexperia/pesd3v3l1ba-115/"
+		(property "Description" "https://www.tme.eu/cz/details/uclamp3301d.tct/diody-jednosmerne-tvs-smd/semtech/"
 			(at 62.23 64.77 0)
 			(effects
 				(font
@@ -17277,7 +17772,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3L1BA,115"
+		(property "Value" "UCLAMP3301D.TCT"
 			(at 88.138 68.326 90)
 			(effects
 				(font
@@ -17295,7 +17790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/0b3db9476c050048835f98fc121e7f5f/PESD3V3L1BA.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/aa8e311704b48c9a68d77d81e0c0adf5/uclamp3301d.pdf"
 			(at 76.2 64.77 0)
 			(effects
 				(font
@@ -17304,7 +17799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.tme.eu/cz/details/pesd3v3l1ba.115/diody-obousmerne-tvs-smd/nexperia/pesd3v3l1ba-115/"
+		(property "Description" "https://www.tme.eu/cz/details/uclamp3301d.tct/diody-jednosmerne-tvs-smd/semtech/"
 			(at 76.2 64.77 0)
 			(effects
 				(font
@@ -17330,15 +17825,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 123.19 168.91 90)
+		(at 123.19 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e96ac03c-aa11-4612-b702-f13647e0948c")
-		(property "Reference" "TP2"
-			(at 119.888 164.592 90)
+		(property "Reference" "TP4"
+			(at 116.332 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17346,15 +17841,16 @@
 			)
 		)
 		(property "Value" "Test_MISO"
-			(at 119.888 166.37 90)
+			(at 119.888 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 123.19 163.83 0)
+			(at 123.19 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17363,7 +17859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 163.83 0)
+			(at 123.19 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17372,7 +17868,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 123.19 168.91 0)
+			(at 123.19 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17386,7 +17882,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -17394,7 +17890,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 179.07 0)
+		(at 161.29 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17403,7 +17899,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea3193c8-f58b-4b43-bb13-055901d8f48e")
 		(property "Reference" "#PWR040"
-			(at 156.21 185.42 0)
+			(at 161.29 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17412,7 +17908,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 184.15 0)
+			(at 161.29 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17421,7 +17917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 179.07 0)
+			(at 161.29 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17430,7 +17926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 179.07 0)
+			(at 161.29 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17439,7 +17935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 179.07 0)
+			(at 161.29 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17454,6 +17950,71 @@
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea4d72c3-14ab-42dd-82db-e9fb67c352fd")
+		(property "Reference" "TP9"
+			(at 91.186 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test_MOSI"
+			(at 94.488 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 97.79 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb8de9f6-1cf3-4e10-8494-f1c56ffebb1f")
+		)
+		(instances
+			(project "kitchen-pcb"
+				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -17535,10 +18096,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0decb6d-a672-4143-880e-0b329d1a1166")
 		(property "Reference" "C3"
-			(at 140.97 66.0399 0)
+			(at 140.97 66.8021 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17547,7 +18107,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 140.97 68.5799 0)
+			(at 140.97 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18022,6 +18582,71 @@
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff2ed2f1-55d6-4c50-87e0-68b99cecfcfc")
+		(property "Reference" "TP3"
+			(at 91.44 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test_MISO"
+			(at 94.488 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37f71f4e-1ed3-4a33-93c1-08feeaee73f0")
+		)
+		(instances
+			(project "kitchen-pcb"
+				(path "/09f81662-95cc-469f-af04-c6a14137ce30"
+					(reference "TP3")
 					(unit 1)
 				)
 			)

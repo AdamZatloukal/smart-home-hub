@@ -4012,6 +4012,17 @@
 		)
 		(uuid "0553fa94-d3fa-4164-ab98-c84873cede4e")
 	)
+	(text "ADD GPIO3 PULLUP/DOWN SWITCH\nAND BURN FUSE EFUSE_STRAP_JTAG_SEL"
+		(exclude_from_sim no)
+		(at 186.436 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 10 1)
+			)
+		)
+		(uuid "07005e78-e08e-4117-a6a8-7eed464a85c0")
+	)
 	(text "USB C + ESD protection"
 		(exclude_from_sim no)
 		(at 34.544 133.35 0)
@@ -4047,6 +4058,28 @@
 			(justify left)
 		)
 		(uuid "2c481a75-984c-4e4c-a96b-4a15d602b140")
+	)
+	(text "WORKS"
+		(exclude_from_sim no)
+		(at 27.686 23.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 10 255 0 1)
+			)
+		)
+		(uuid "3148dcf3-a35c-4626-9bd2-99605a412147")
+	)
+	(text "DECOUPLING WORKS WITHOUT C12"
+		(exclude_from_sim no)
+		(at 145.288 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 10 1)
+			)
+		)
+		(uuid "3d5d7102-848a-495e-a87e-23b9e070b30b")
 	)
 	(text "Crowbar explanation"
 		(exclude_from_sim no)
@@ -4113,7 +4146,7 @@
 	)
 	(text "R10k"
 		(exclude_from_sim no)
-		(at 131.572 104.14 0)
+		(at 131.572 105.156 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -4146,18 +4179,6 @@
 		)
 		(uuid "521509f2-b7cd-4dcb-a346-95b3b25ed759")
 	)
-	(text "R4k7"
-		(exclude_from_sim no)
-		(at 131.572 105.41 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-				(color 39 255 0 1)
-			)
-			(href "https://www.tme.eu/cz/details/rc0603fr-074k7/rezistory-smd/yageo/rc0603fr-074k7l/")
-		)
-		(uuid "52c33961-dba4-4b99-b615-160a0850d192")
-	)
 	(text "0 - reset\n1 - execute"
 		(exclude_from_sim no)
 		(at 204.978 98.806 0)
@@ -4184,14 +4205,14 @@
 	)
 	(text "100 nF"
 		(exclude_from_sim no)
-		(at 130.048 102.87 0)
+		(at 130.048 103.886 0)
 		(effects
 			(font
 				(size 0.762 0.762)
 				(color 25 255 0 1)
 			)
 			(justify left)
-			(href "https://www.tme.eu/cz/details/08051c104j4t2a/kondenzatory-mlcc-smd/kyocera-avx/")
+			(href "https://www.tme.eu/cz/details/cl21b104kbcnnnc/kondenzatory-mlcc-smd/samsung/")
 		)
 		(uuid "65e9ab7c-b940-4953-8b64-a482515ec099")
 	)
@@ -4204,6 +4225,17 @@
 			)
 		)
 		(uuid "691ae448-a8dd-44da-92f8-9cebf7f4c3e0")
+	)
+	(text "50 OMHS RES SHOULD HAVE\n0402 FOOTPRINT"
+		(exclude_from_sim no)
+		(at 181.102 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 10 1)
+			)
+		)
+		(uuid "69506044-a84f-4f74-b95e-ab5d2bb53cd3")
 	)
 	(text "When held LOW during reset, the ESP32 enters \nbootloader mode to accept firmware uploads.\nOtherwise, it boots normally from flash."
 		(exclude_from_sim no)
@@ -4229,6 +4261,17 @@
 			(href "https://www.youtube.com/watch?v=X71YDKgRJvA")
 		)
 		(uuid "6ecdac79-0211-40e0-8864-db7e61ad5b83")
+	)
+	(text "WORKS FOR POWER BUT NOT FOR DEBUGGING\nISNT RECOGNIZED AS A SERIAL PORT"
+		(exclude_from_sim no)
+		(at 35.56 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 19 255 0 1)
+			)
+		)
+		(uuid "700936ff-1d0f-4eaf-9dd3-497073a2af8d")
 	)
 	(text "IO0 has an internal pullup"
 		(exclude_from_sim no)
@@ -4503,6 +4546,28 @@
 		)
 		(uuid "ba55c387-0255-4474-8fa6-339bfe320eee")
 	)
+	(text "ADD PINS FOR JTAG AND PROGRAM \n(RX, TX, EN, IO0, MTDI, MTDO, MTCLK,\nMTMS, GPIO3, 3,3V, GND)"
+		(exclude_from_sim no)
+		(at 185.42 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 10 1)
+			)
+		)
+		(uuid "bbc3a225-5175-4a8c-b3c0-f4e1797bb4ca")
+	)
+	(text "BOOT CIRCUITARY WORKS WITHOUT C15"
+		(exclude_from_sim no)
+		(at 62.738 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 19 255 0 1)
+			)
+		)
+		(uuid "bccfe34a-eec3-4a2f-a501-95d400c88b3d")
+	)
 	(text "NOTE We have DP1, DP2, DN1 and DN2 because USBC can be connected\neven when turned around. Only one of these pairs is always used"
 		(exclude_from_sim no)
 		(at 24.13 172.974 0)
@@ -4563,6 +4628,28 @@
 			(justify left)
 		)
 		(uuid "dc602385-2458-4149-b926-00dc7ed4de3f")
+	)
+	(text "WORKS"
+		(exclude_from_sim no)
+		(at 138.176 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 44 255 4 1)
+			)
+		)
+		(uuid "e89ea214-e624-4101-a406-74889dba88ba")
+	)
+	(text "WORKS\nEVEN WHEN BOTH USB\nAND DC JACK IS PLUGGED IN"
+		(exclude_from_sim no)
+		(at 269.494 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 10 1)
+			)
+		)
+		(uuid "ec238607-1489-4da9-bb94-15cb811055e9")
 	)
 	(text "Try to find 06xx 50R"
 		(exclude_from_sim no)
@@ -6359,7 +6446,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 143.51) (xy 218.44 143.51)
+			(xy 217.17 143.51) (xy 226.06 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8071,73 +8158,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 222.25 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08c5cf79-e7a3-4f7a-a12e-5f59f09ad006")
-		(property "Reference" "R23"
-			(at 222.25 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50R"
-			(at 222.25 147.828 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 222.25 141.732 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 222.25 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "19496ce5-28b5-4730-ae31-51722f94a074")
-		)
-		(pin "1"
-			(uuid "3b58619c-c19e-4cc2-957b-9bc4e7150cd8")
-		)
-		(instances
-			(project "kitchen-pcb"
-				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "USB4105-GF-A:USB4105-GF-A")
 		(at 77.47 156.21 0)
 		(unit 1)
@@ -8455,7 +8475,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "B320AE-13"
 			(at 110.8075 142.24 0)
 			(effects
 				(font
@@ -8725,7 +8745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f763045-2280-4c37-b938-6a9d849097af")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 97.79 74.93 90)
 			(effects
 				(font
@@ -8777,7 +8797,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9127,7 +9147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22e5a4e0-79cc-404f-affa-2ce5c4c2ea28")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 213.36 144.78 90)
 			(effects
 				(font
@@ -9179,7 +9199,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9194,7 +9214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2868c948-bb1f-4be7-870e-2026c531b290")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 105.41 153.67 90)
 			(effects
 				(font
@@ -9246,7 +9266,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9337,7 +9357,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "B320AE-13"
 			(at 254.254 24.384 0)
 			(effects
 				(font
@@ -9407,7 +9427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36d18c17-225b-4ae5-b31d-c74f3f02b416")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR076"
 			(at 104.14 175.26 0)
 			(effects
 				(font
@@ -9458,7 +9478,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR077")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -9684,7 +9704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e2fa329-3acc-45c2-97b9-543aa566acec")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 235.458 45.72 0)
 			(effects
 				(font
@@ -9738,7 +9758,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10346,7 +10366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "639361b1-d4c9-43ca-b56f-9fb4becdd2e3")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 93.98 36.8299 0)
 			(effects
 				(font
@@ -10400,7 +10420,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10772,7 +10792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e667025-9006-4879-9ef3-a640a8c899fa")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR078"
 			(at 104.14 196.85 0)
 			(effects
 				(font
@@ -10823,7 +10843,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR076")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -10903,7 +10923,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "73301aa7-da38-4daf-8813-4475425b1812")
 		(property "Reference" "C12"
 			(at 137.16 89.916 0)
@@ -10950,7 +10970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "(NC)"
+		(property "Note" "NC"
 			(at 138.938 93.98 0)
 			(effects
 				(font
@@ -11182,7 +11202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "785e45a2-68f0-4274-b66e-395738d4d6df")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 49.53 144.78 90)
 			(effects
 				(font
@@ -11234,7 +11254,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -11319,7 +11339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8de4dd65-1c43-4861-ae22-a374c7f8a77c")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 37.592 107.9499 0)
 			(effects
 				(font
@@ -11373,7 +11393,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -12801,7 +12821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbf10d47-3d23-4d9e-9e62-95ca48c1ad34")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 102.362 118.1099 0)
 			(effects
 				(font
@@ -12864,7 +12884,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "R20")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -12946,7 +12966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4de9d39-99b7-4abc-b44c-917745d59387")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR077"
 			(at 54.61 182.88 0)
 			(effects
 				(font
@@ -12997,7 +13017,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "#PWR078")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -13607,7 +13627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0ff8e3a-0767-4dcf-86ae-7fb1e8d63a8d")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 49.53 74.93 90)
 			(effects
 				(font
@@ -13659,7 +13679,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13808,7 +13828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5a92a3f-121e-4c39-9ef1-2ee3e979a973")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 203.454 134.112 90)
 			(effects
 				(font
@@ -13860,7 +13880,7 @@
 		(instances
 			(project "kitchen-pcb"
 				(path "/09f81662-95cc-469f-af04-c6a14137ce30/88485db4-61a5-4171-9283-b7e1247b6206"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)

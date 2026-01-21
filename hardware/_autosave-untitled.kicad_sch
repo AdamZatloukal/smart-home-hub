@@ -4220,17 +4220,6 @@
 		)
 		(uuid "6ecdac79-0211-40e0-8864-db7e61ad5b83")
 	)
-	(text "WORKS FOR POWER BUT NOT FOR DEBUGGING\nISNT RECOGNIZED AS A SERIAL PORT"
-		(exclude_from_sim no)
-		(at 35.56 166.624 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 19 255 0 1)
-			)
-		)
-		(uuid "700936ff-1d0f-4eaf-9dd3-497073a2af8d")
-	)
 	(text "IO0 has an internal pullup"
 		(exclude_from_sim no)
 		(at 91.694 97.79 0)
@@ -4527,18 +4516,6 @@
 			)
 		)
 		(uuid "bccfe34a-eec3-4a2f-a501-95d400c88b3d")
-	)
-	(text "NOTE We have DP1, DP2, DN1 and DN2 because USBC can be connected\neven when turned around. Only one of these pairs is always used"
-		(exclude_from_sim no)
-		(at 24.13 172.974 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 255 0 7 1)
-			)
-			(justify left)
-		)
-		(uuid "c1bc980c-8195-4345-a60d-c8238e525988")
 	)
 	(text "1 uF"
 		(exclude_from_sim no)
