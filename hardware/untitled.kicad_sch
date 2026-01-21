@@ -4008,6 +4008,7 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
+				(color 255 0 6 1)
 			)
 		)
 		(uuid "0553fa94-d3fa-4164-ab98-c84873cede4e")
@@ -4043,9 +4044,20 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
+				(color 255 0 7 1)
 			)
 		)
 		(uuid "1117199f-4cbe-49a7-9107-9f452b0b23fe")
+	)
+	(text "BIGGER GAP BETWEEN C6 AND C7 FOR EASIER SOLDERING"
+		(exclude_from_sim no)
+		(at 51.816 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a46f9d3-edbc-4fcb-aac4-521f4dfa548d")
 	)
 	(text "NOTE: CC1 and CC2 are pulled down\nmeaning that we want the computer \nto give 5V to the PCB"
 		(exclude_from_sim no)
@@ -4058,17 +4070,6 @@
 			(justify left)
 		)
 		(uuid "2c481a75-984c-4e4c-a96b-4a15d602b140")
-	)
-	(text "WORKS"
-		(exclude_from_sim no)
-		(at 27.686 23.622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 10 255 0 1)
-			)
-		)
-		(uuid "3148dcf3-a35c-4626-9bd2-99605a412147")
 	)
 	(text "DECOUPLING WORKS WITHOUT C12"
 		(exclude_from_sim no)
@@ -4378,6 +4379,7 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
+				(color 255 6 19 1)
 			)
 		)
 		(uuid "8d7aa9ee-bacb-4fc5-8fc4-06f5c4957dcf")
@@ -4628,17 +4630,6 @@
 			(justify left)
 		)
 		(uuid "dc602385-2458-4149-b926-00dc7ed4de3f")
-	)
-	(text "WORKS"
-		(exclude_from_sim no)
-		(at 138.176 34.544 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 44 255 4 1)
-			)
-		)
-		(uuid "e89ea214-e624-4101-a406-74889dba88ba")
 	)
 	(text "WORKS\nEVEN WHEN BOTH USB\nAND DC JACK IS PLUGGED IN"
 		(exclude_from_sim no)

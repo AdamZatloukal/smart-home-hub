@@ -73,43 +73,7 @@
           "width": 0.3343
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|104430000|103350000|6a3aa9ee-43d0-490a-b965-9fa01717a915|4240bfaa-fa0a-4689-b635-5b7f3f4e3cb1",
-          ""
-        ],
-        [
-          "hole_clearance|104430000|103550000|6a3aa9ee-43d0-490a-b965-9fa01717a915|2f2b7e4d-69ac-4c94-a944-3a2214de49fe",
-          ""
-        ],
-        [
-          "hole_clearance|104430000|108950000|c59d5452-176f-4c87-ad71-e6313dd3d0d2|bf5fed32-29a4-40da-abd9-9bfc4fd4f2ba",
-          ""
-        ],
-        [
-          "hole_clearance|104430000|109150000|c59d5452-176f-4c87-ad71-e6313dd3d0d2|bfc02bb4-e1be-4843-b875-3b3f1102b329",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|101912500|107925000|3cfd57e9-5082-49e2-b0ca-10bd312fb6ca|00000000-0000-0000-0000-000000000000",
-          "Moved ."
-        ],
-        [
-          "lib_footprint_mismatch|110000000|71500000|4caa3417-d611-461f-8e35-dbc85230e191|00000000-0000-0000-0000-000000000000",
-          "Changes PCB antenna silkscreen"
-<<<<<<< HEAD
-        ],
-        [
-          "silk_overlap|163034972|118250000|1dce43e0-89bc-49aa-aa73-8b587d3158dd|758639da-2501-4bb8-8783-0e9632efa852",
-          ""
-        ],
-        [
-          "silk_overlap|167750000|118348984|3c2cee86-1608-42f8-8565-c32c9447aac3|758639da-2501-4bb8-8783-0e9632efa852",
-          ""
-=======
->>>>>>> d4f911abc9ac7a999398c87e812d6cca317665db
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
