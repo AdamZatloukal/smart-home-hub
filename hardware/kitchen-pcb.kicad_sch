@@ -3176,6 +3176,7 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
+				(color 41 255 0 1)
 			)
 		)
 		(uuid "7cf703ca-7abb-4d80-bfbf-b8c906f6dba7")

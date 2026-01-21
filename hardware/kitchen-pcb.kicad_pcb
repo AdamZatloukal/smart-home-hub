@@ -25570,6 +25570,18 @@
 			)
 		)
 	)
+	(gr_text "R19 replaced with 0 ohm jumer (caused EN pin to fluctuate)"
+		(at 97.5 145 0)
+		(layer "Cmts.User")
+		(uuid "b65a390e-ae47-45a6-a4c9-504c00ef8865")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text_box "USBC routing https://microchip.my.site.com/s/article/USB-Type-C-Layout-Recommendations\nSPI controlled impedance: https://resources.altium.com/p/\nthere-spi-trace-impedance-requirement\nHigh speed layout design: https://www.ti.com/lit/an/spraar7j/spraar7j.pdf?ts=1754169715542&ref_url=\nhttps%253A%252F%252Fwww.google.com%252F"
 		(start 62.375 101.75)
 		(end 95.625 110.75)

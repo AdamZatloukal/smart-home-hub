@@ -4012,6 +4012,17 @@
 		)
 		(uuid "0553fa94-d3fa-4164-ab98-c84873cede4e")
 	)
+	(text "ADD GPIO3 PULLUP/DOWN SWITCH\nAND BURN FUSE EFUSE_STRAP_JTAG_SEL"
+		(exclude_from_sim no)
+		(at 186.436 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 10 1)
+			)
+		)
+		(uuid "07005e78-e08e-4117-a6a8-7eed464a85c0")
+	)
 	(text "USB C + ESD protection"
 		(exclude_from_sim no)
 		(at 34.544 133.35 0)
@@ -4047,6 +4058,28 @@
 			(justify left)
 		)
 		(uuid "2c481a75-984c-4e4c-a96b-4a15d602b140")
+	)
+	(text "WORKS"
+		(exclude_from_sim no)
+		(at 27.686 23.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 10 255 0 1)
+			)
+		)
+		(uuid "3148dcf3-a35c-4626-9bd2-99605a412147")
+	)
+	(text "DECOUPLING WORKS WITHOUT C12"
+		(exclude_from_sim no)
+		(at 145.288 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 10 1)
+			)
+		)
+		(uuid "3d5d7102-848a-495e-a87e-23b9e070b30b")
 	)
 	(text "Crowbar explanation"
 		(exclude_from_sim no)
@@ -4179,7 +4212,7 @@
 				(color 25 255 0 1)
 			)
 			(justify left)
-			(href "https://www.tme.eu/cz/details/08051c104j4t2a/kondenzatory-mlcc-smd/kyocera-avx/")
+			(href "https://www.tme.eu/cz/details/cl21b104kbcnnnc/kondenzatory-mlcc-smd/samsung/")
 		)
 		(uuid "65e9ab7c-b940-4953-8b64-a482515ec099")
 	)
@@ -4192,6 +4225,17 @@
 			)
 		)
 		(uuid "691ae448-a8dd-44da-92f8-9cebf7f4c3e0")
+	)
+	(text "50 OMHS RES SHOULD HAVE\n0402 FOOTPRINT"
+		(exclude_from_sim no)
+		(at 181.102 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 10 1)
+			)
+		)
+		(uuid "69506044-a84f-4f74-b95e-ab5d2bb53cd3")
 	)
 	(text "When held LOW during reset, the ESP32 enters \nbootloader mode to accept firmware uploads.\nOtherwise, it boots normally from flash."
 		(exclude_from_sim no)
@@ -4217,6 +4261,17 @@
 			(href "https://www.youtube.com/watch?v=X71YDKgRJvA")
 		)
 		(uuid "6ecdac79-0211-40e0-8864-db7e61ad5b83")
+	)
+	(text "WORKS FOR POWER BUT NOT FOR DEBUGGING\nISNT RECOGNIZED AS A SERIAL PORT"
+		(exclude_from_sim no)
+		(at 35.56 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 19 255 0 1)
+			)
+		)
+		(uuid "700936ff-1d0f-4eaf-9dd3-497073a2af8d")
 	)
 	(text "IO0 has an internal pullup"
 		(exclude_from_sim no)
@@ -4491,6 +4546,28 @@
 		)
 		(uuid "ba55c387-0255-4474-8fa6-339bfe320eee")
 	)
+	(text "ADD PINS FOR JTAG AND PROGRAM \n(RX, TX, EN, IO0, MTDI, MTDO, MTCLK,\nMTMS, GPIO3, 3,3V, GND)"
+		(exclude_from_sim no)
+		(at 185.42 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 10 1)
+			)
+		)
+		(uuid "bbc3a225-5175-4a8c-b3c0-f4e1797bb4ca")
+	)
+	(text "BOOT CIRCUITARY WORKS WITHOUT C15"
+		(exclude_from_sim no)
+		(at 62.738 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 19 255 0 1)
+			)
+		)
+		(uuid "bccfe34a-eec3-4a2f-a501-95d400c88b3d")
+	)
 	(text "NOTE We have DP1, DP2, DN1 and DN2 because USBC can be connected\neven when turned around. Only one of these pairs is always used"
 		(exclude_from_sim no)
 		(at 24.13 172.974 0)
@@ -4551,6 +4628,28 @@
 			(justify left)
 		)
 		(uuid "dc602385-2458-4149-b926-00dc7ed4de3f")
+	)
+	(text "WORKS"
+		(exclude_from_sim no)
+		(at 138.176 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 44 255 4 1)
+			)
+		)
+		(uuid "e89ea214-e624-4101-a406-74889dba88ba")
+	)
+	(text "WORKS\nEVEN WHEN BOTH USB\nAND DC JACK IS PLUGGED IN"
+		(exclude_from_sim no)
+		(at 269.494 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 255 10 1)
+			)
+		)
+		(uuid "ec238607-1489-4da9-bb94-15cb811055e9")
 	)
 	(text "Try to find 06xx 50R"
 		(exclude_from_sim no)
