@@ -7729,7 +7729,11 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "4bd89b23-ed3a-45bc-8c1a-e8b133e06635")
+<<<<<<< HEAD
 		(at 126 90.75)
+=======
+		(at 68.5 93.25)
+>>>>>>> d4f911abc9ac7a999398c87e812d6cca317665db
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -23604,6 +23608,7 @@
 		(embedded_fonts no)
 	)
 	(gr_line
+<<<<<<< HEAD
 		(start 118.5 116.25)
 		(end 107.25 116.25)
 		(stroke
@@ -23942,6 +23947,8 @@
 		(uuid "f7bee63b-4614-40f8-acae-2fcf3d053b63")
 	)
 	(gr_line
+=======
+>>>>>>> d4f911abc9ac7a999398c87e812d6cca317665db
 		(start 97.398614 111.25)
 		(end 98.25 110.5)
 		(stroke
@@ -24147,6 +24154,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ffcc6fc4-8e43-4262-beb8-52560f705e3e")
 	)
+<<<<<<< HEAD
 	(gr_text "RESET"
 		(at 117 140.5 0)
 		(layer "F.SilkS" knockout)
@@ -25583,6 +25591,9 @@
 		)
 	)
 	(gr_text_box "USBC routing https://microchip.my.site.com/s/article/USB-Type-C-Layout-Recommendations\nSPI controlled impedance: https://resources.altium.com/p/\nthere-spi-trace-impedance-requirement\nHigh speed layout design: https://www.ti.com/lit/an/spraar7j/spraar7j.pdf?ts=1754169715542&ref_url=\nhttps%253A%252F%252Fwww.google.com%252F"
+=======
+	(gr_text_box "USBC routing https://microchip.my.site.com/s/article/USB-Type-C-Layout-Recommendations\nSPI controlled impedance: https://resources.altium.com/p/\nthere-spi-trace-impedance-requirement"
+>>>>>>> d4f911abc9ac7a999398c87e812d6cca317665db
 		(start 62.375 101.75)
 		(end 95.625 110.75)
 		(margins 1.0025 1.0025 1.0025 1.0025)
@@ -25603,6 +25614,7 @@
 		)
 	)
 	(segment
+<<<<<<< HEAD
 		(start 138.66 90.54)
 		(end 138.66 88.75)
 		(width 0.5)
@@ -58106,6 +58118,14 @@
 			"8f3778c4-614f-40a6-b565-baf73e681a79" "b2050d34-f4dc-45a3-8c5a-a9fb81e64924"
 			"b70cb334-205e-439f-8be9-10c2c2eb2841"
 		)
+=======
+		(start 120.12825 82.5)
+		(end 120.12825 84.25)
+		(width 0.1735)
+		(layer "F.Cu")
+		(net 46)
+		(uuid "ca93fe3f-aff0-4c39-aa03-bbbff34e1830")
+>>>>>>> d4f911abc9ac7a999398c87e812d6cca317665db
 	)
 	(embedded_fonts no)
 )
