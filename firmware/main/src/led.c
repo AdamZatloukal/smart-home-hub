@@ -4,27 +4,20 @@
 
 static const char* TAG = "led strip";
 
-void test_led_strip(void)
-{
-    led_strip_handle_t led_strip = configure_strip();
-    
-    for (int i = 0; i < MAX_LEDS; i++)
-    {
-        vTaskDelay(pdMS_TO_TICKS(200));
-        ESP_ERROR_CHECK(led_strip_set_pixel(led_strip, i, 255, 0, 0));
-        ESP_LOGI(TAG, "LED i: %i turned on", i);
-        ESP_ERROR_CHECK(led_strip_refresh(led_strip));
+void turn_on_all_led(led_strip_handle_t led_strip,int num_of_leds, rgb_color_t color) {
+    for (int i = 0; i < num_of_leds; i++) {
+        ESP_ERROR_CHECK(led_strip_set_pixel(led_strip, i, color.red, color.green, color.blue));
     }
+    ESP_ERROR_CHECK(led_strip_refresh(led_strip));
+    ESP_LOGI(TAG, "Every pixel is now turned on");
 
-    vTaskDelay(pdMS_TO_TICKS(5000));
-    led_strip_clear(led_strip);
 }
 
-led_strip_handle_t configure_strip(void)
+led_strip_handle_t configure_strip(int num_leds)
 {
     led_strip_config_t strip_config = {
         .strip_gpio_num = STRIP_GPIO,
-        .max_leds = MAX_LEDS,
+        .max_leds = num_leds,
         .led_model = LED_MODEL_WS2812,
         .color_component_format = LED_STRIP_COLOR_COMPONENT_FMT_GRB,
         .flags = {

@@ -29,9 +29,9 @@ try:
             "green": colorsRGB[1],
             "blue": colorsRGB[2]
         }
-        payload = colorsJSON = json.dumps(colorsObj)
 
-        response = requests.post(post_url, json = payload)
+        # .post automaticly turns the dictionary into json
+        response = requests.post(post_url, json = colorsObj)
         print(f"Status code: {response.status_code}\nText: {response.text}\n")
     
     elif command == "help":
