@@ -1,12 +1,24 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
-#include "led_strip.h"
+/* add cpp compilation (ws2812fx is cpp)*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-#define MAX_LEDS 50
+#include "led_strip.h"
+#include "WS2812FX.h"
+
+extern WS2812FX *fx;
+
+#define MAX_LEDS 20
 
 /* GLOBAL VARIABLES - defined in main.c */
 extern led_strip_handle_t led_strip;        // handle to led strip 
 extern int num_leds;                        // number of leds on the strip
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

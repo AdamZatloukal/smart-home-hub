@@ -17,5 +17,5 @@
     "--compile-commands-dir=c:\\Users\\zatlo\\OneDrive\\projects\\Embedded\\ESP32\\smart-home-hub\\firmware\\build"
   ],
   "idf.portWin": "COM4",
-  "idf.flashType": "UART"
+  "idf.flashType": "JTAG"
 }

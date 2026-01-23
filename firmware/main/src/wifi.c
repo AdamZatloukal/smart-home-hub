@@ -13,7 +13,7 @@
 #include "esp_http_server.h"
 #include "driver/gpio.h"
 #include "led.h"
-#include "http-handlers.h"
+#include "http_handlers.h"
 
 static const char* TAG = "WIFI";
 
@@ -89,8 +89,8 @@ esp_err_t connect_wifi() {
     /* !!!!!!!!!!!!!!!!!! SENSITIVE INFORAMTION !!!!!!!!!!!!!!!!!! */
     wifi_config_t wifi_config = { // set the configuration for the network we want to connect to
         .sta = {
-            .ssid = "name",
-            .password = "password"
+            .ssid = "",
+            .password = ""
         }
     };
 
@@ -135,17 +135,6 @@ httpd_handle_t start_webserver() {
     * GET mean the server (ESP) is sending data to us
     * POST means that we are sending the data to the server
     */
-    httpd_uri_t led_on = {
-        .uri = "/led/on",
-        .method = HTTP_GET,
-        .handler = led_on_handler
-    };
-
-    httpd_uri_t led_off = {
-        .uri = "/led/off",
-        .method = HTTP_GET,
-        .handler = led_off_handler
-    };
 
     httpd_uri_t set_color = {
         .uri = "/set/color",
@@ -153,11 +142,30 @@ httpd_handle_t start_webserver() {
         .handler = set_color_handler,
     };
 
+    httpd_uri_t set_brightness = {
+        .uri = "/set/brightness",
+        .method = HTTP_POST,
+        .handler = set_brightness_handler
+    };
+
+    httpd_uri_t set_speed = {
+        .uri = "/set/speed",
+        .method = HTTP_POST,
+        .handler = set_brightness_handler
+    };
+
+    httpd_uri_t set_mode = {
+        .uri = "/set/mode",
+        .method = HTTP_POST,
+        .handler = set_brightness_handler
+    };
+
     if (httpd_start(&server_handle, &config) == ESP_OK) {
-        ESP_ERROR_CHECK(httpd_register_uri_handler(server_handle, &led_on));
-        ESP_ERROR_CHECK(httpd_register_uri_handler(server_handle, &led_off));
         ESP_ERROR_CHECK(httpd_register_uri_handler(server_handle, &set_color));
-    }
+        ESP_ERROR_CHECK(httpd_register_uri_handler(server_handle, &set_brightness));
+        ESP_ERROR_CHECK(httpd_register_uri_handler(server_handle, &set_speed));
+        ESP_ERROR_CHECK(httpd_register_uri_handler(server_handle, &set_mode));
+    };
 
     return server_handle;
 

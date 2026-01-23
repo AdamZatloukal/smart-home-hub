@@ -1,6 +1,10 @@
 #ifndef WIFI_H_
 #define WIFI_H_
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 /* these includes are just needed for the declarations*/
 #include "freertos/event_groups.h"
 #include "esp_http_server.h"
@@ -60,5 +64,9 @@ static void got_ip_handler(void *arg, esp_event_base_t event_base, int32_t event
   *    we cannot directly dereference it and need to cast it to the correct type
 */
 static void wifi_event_handler(void *arg, esp_event_base_t event_base, int32_t event_id, void *event_data);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
