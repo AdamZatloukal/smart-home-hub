@@ -31,7 +31,7 @@ try:
         brightness = sys.argv[2]
 
         brightnessObj = {
-            "brightness" : brightness
+            "brightness" : int(brightness)
         }
 
         # .post automaticly turns the dictionary into json
@@ -42,7 +42,7 @@ try:
         speed = sys.argv[2]
 
         speedObj = {
-            "speed" : speed
+            "speed" : int(speed)
         }
 
         # .post automaticly turns the dictionary into json
@@ -53,7 +53,7 @@ try:
         mode = sys.argv[2]
 
         modeObj = {
-            "mode" : mode
+            "mode" : int(mode)
         }
 
         # .post automaticly turns the dictionary into json
@@ -64,9 +64,9 @@ try:
         print("set-color    Takes a HEX color turns it into RGB puts it into a JSON object\n" \
         "                   and sends it. Example use: py main.py set-color #FF00FF \n" \
         "                   in powershell '#FF00FF'")
-        print("set-brightness   takes uint8_t")
-        print("set-speed    takes uint16_t")
-        print("set-mode     takes uint8_t")
+        print("set-brightness   takes uint8_t MUST BE A NUMBER NOR A STRING!!!!")
+        print("set-speed    takes uint16_t MUST BE A NUMBER NOR A STRING!!!!")
+        print("set-mode     takes uint8_t MUST BE A NUMBER NOR A STRING!!!!")
 
 except Exception as e:
     print(e)    

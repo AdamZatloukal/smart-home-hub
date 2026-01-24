@@ -89,8 +89,8 @@ esp_err_t connect_wifi() {
     /* !!!!!!!!!!!!!!!!!! SENSITIVE INFORAMTION !!!!!!!!!!!!!!!!!! */
     wifi_config_t wifi_config = { // set the configuration for the network we want to connect to
         .sta = {
-            .ssid = "",
-            .password = ""
+            .ssid = "-",
+            .password = "-"
         }
     };
 
@@ -151,13 +151,13 @@ httpd_handle_t start_webserver() {
     httpd_uri_t set_speed = {
         .uri = "/set/speed",
         .method = HTTP_POST,
-        .handler = set_brightness_handler
+        .handler = set_speed_handler
     };
 
     httpd_uri_t set_mode = {
         .uri = "/set/mode",
         .method = HTTP_POST,
-        .handler = set_brightness_handler
+        .handler = set_mode_handler
     };
 
     if (httpd_start(&server_handle, &config) == ESP_OK) {

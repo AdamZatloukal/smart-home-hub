@@ -25,14 +25,18 @@ void fx_loop(void *parameter)
 
     while (true)
     {
-        // temporary for testing
-        fx->fill(fx->getColor(), 0, num_leds);
+        /* looks like it works without this*/
+        //if (fx->getMode() == FX_MODE_STATIC)
+        //    fx->fill(fx->getColor(), 0, num_leds);
 
         fx->service();
-        rgb_color_t color;
 
-        // temporary for testing (doesnt print anyways
+        // temporary for testing (doesnt print anyways)
+        rgb_color_t color;
         HEX_TO_RGB(fx->getColor(), color.red, color.green, color.blue);
+        uint8_t mode = fx->getMode();
+        ESP_LOGI("test", "%i", mode);
+
         vTaskDelay(pdMS_TO_TICKS(10));
     }
 }
