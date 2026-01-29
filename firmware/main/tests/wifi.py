@@ -2,7 +2,7 @@ import requests
 import sys
 from PIL import ImageColor
 
-esp32_ip = "10.0.0.16" # enter the ip of you esp32
+esp32_ip = "10.0.0.28" # enter the ip of you esp32  10.0.0.16 - devkit, 10.0.0.28 prototype1
 post_url_color = f"http://{esp32_ip}/set/color"
 post_url_brightness = f"http://{esp32_ip}/set/brightness"
 post_url_speed = f"http://{esp32_ip}/set/speed"
@@ -65,8 +65,10 @@ try:
         "                   and sends it. Example use: py main.py set-color #FF00FF \n" \
         "                   in powershell '#FF00FF'")
         print("set-brightness   takes uint8_t MUST BE A NUMBER NOR A STRING!!!!")
-        print("set-speed    takes uint16_t MUST BE A NUMBER NOR A STRING!!!!")
-        print("set-mode     takes uint8_t MUST BE A NUMBER NOR A STRING!!!!")
+        print("set-speed    takes uint16_t MUST BE A NUMBER NOR A STRING!!!!\n" \
+        "                   0 is default speed 1 is fastest and 1000 slowest")
+        print("set-mode     takes uint8_t MUST BE A NUMBER NOR A STRING!!!!\n" \
+        "                   0 - 55 (in docs it starts from 0 but in reality it starts from 1)")
 
 except Exception as e:
     print(e)    

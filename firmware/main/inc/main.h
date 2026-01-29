@@ -16,6 +16,12 @@ extern WS2812FX *fx;
 /* GLOBAL VARIABLES - defined in main.c */
 extern led_strip_handle_t led_strip;        // handle to led strip 
 extern int num_leds;                        // number of leds on the strip
+extern TaskHandle_t task_read_mic_handle;
+
+void read_mic(void *parameter); // RTOS task
+void fx_loop(void *parameter);
+void wifi_webserver(void *parameter);
+
 
 #ifdef __cplusplus
 }
