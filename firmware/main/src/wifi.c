@@ -16,6 +16,7 @@
 #include "http_handlers.h"
 
 #include "esp_http_client.h"
+#include "wifi_credentials.h"
 
 static const char *TAG = "WIFI";
 #define HOST_IP_PORT "10.0.0.20:8080"
@@ -96,11 +97,10 @@ esp_err_t connect_wifi()
 
     wifi_event_group = xEventGroupCreate();
 
-    /* !!!!!!!!!!!!!!!!!! SENSITIVE INFORAMTION !!!!!!!!!!!!!!!!!! */
     wifi_config_t wifi_config = {// set the configuration for the network we want to connect to
                                  .sta = {
-                                     .ssid = "Unasdoma",
-                                     .password = "delfin13"}};
+                                     .ssid = SSID,
+                                     .password = PASSWORD}};
 
     esp_wifi_set_config(WIFI_IF_STA, &wifi_config); // configures wifi settings like the ssid and password
     esp_wifi_start();                               // enables the HW required for WiFi - events will start to happen
@@ -208,6 +208,7 @@ void start_client(void)
    // we should also call esp_http_client_cleanup() to free resources
 }
 
+// try sending raw packets insted of http requests
 void send_post_request_mic(const char *post_data, int post_data_len)
 {
     /* POST */

@@ -1,0 +1,5 @@
+# wifi credentials
+*.wifi_credentials.h
+
+# pcb backups
+*.kitchen-pcb-backups
