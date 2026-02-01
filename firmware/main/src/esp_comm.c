@@ -1,6 +1,8 @@
 #include "esp_now.h"
+#include "esp_log.h"
+#include "esp_comm.h"
 
-void send_cb(const uint8_t *mac_addr, esp_now_send_status_t status)
+void send_cb(const esp_now_send_info_t *tx_info, esp_now_send_status_t status)
 {
     ESP_LOGI("ESPNOW", "Send status: %s",
              status == ESP_NOW_SEND_SUCCESS ? "Success" : "Fail");
@@ -30,12 +32,13 @@ void esp_now_setup(void)
     /* peer params*/
     uint8_t peer_mac_addr[6]= {0x14, 0x33, 0x5C, 0x66, 0x60, 0x68};    // MAC address of the receiver
     memcpy(peer->peer_addr, peer_mac_addr, 6); // set tje mac address of the peer
-    peer->channel = 0;
+    peer->channel = 6;
     peer->ifidx = WIFI_IF_STA;
     peer->encrypt = false;
-    esp_now_add_peer(peer);
-    free(peer);   
+    esp_now_add_peer(peer);   
 
     char msg[] = "Hello ESP-NOW";
     esp_now_send(peer->peer_addr, (uint8_t *)msg ,sizeof(msg));
+
+    free(peer);
 }

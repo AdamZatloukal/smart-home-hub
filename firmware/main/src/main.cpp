@@ -15,6 +15,7 @@
 
 #include "driver/i2s_std.h"
 #include "esp_http_client.h"
+#include "esp_comm.h"
 
 int num_leds = MAX_LEDS;
 led_strip_handle_t led_strip = NULL;
@@ -55,7 +56,7 @@ void wifi_webserver(void *parameter)
     /* START WEBSERVER */
     httpd_handle_t server_instance = start_webserver();
     vTaskResume(task_read_mic_handle);  // when we connect to wifi we can send post requests
-
+    esp_now_setup();
 
     // add: if wifi disconnects check and reconnect
     while (true)

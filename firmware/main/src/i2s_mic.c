@@ -78,5 +78,3 @@ void i2s_init(void)
     gpio_set_direction(SEL_PIN, GPIO_MODE_OUTPUT);
     gpio_set_level(SEL_PIN, 0);
 }
-
-I2S_STD_PHILIP_SLOT_DEFAULT_CONFIG()
