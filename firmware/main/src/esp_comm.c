@@ -1,6 +1,9 @@
 #include "esp_now.h"
+#include "esp_log.h"
+#include "stdlib.h"
+#include "esp_comm.h"
 
-void send_cb(const uint8_t *mac_addr, esp_now_send_status_t status)
+void send_cb(const esp_now_send_info_t *tx_info, esp_now_send_status_t status)
 {
     ESP_LOGI("ESPNOW", "Send status: %s",
              status == ESP_NOW_SEND_SUCCESS ? "Success" : "Fail");
@@ -9,7 +12,12 @@ void send_cb(const uint8_t *mac_addr, esp_now_send_status_t status)
 void recv_cb(const esp_now_recv_info_t *info,
              const uint8_t *data, int len)
 {
-    ESP_LOGI("ESPNOW", "Received %d bytes", len);
+    ESP_LOGI("ESPNOW", "Packet from: %02X:%02X:%02X:%02X:%02X:%02X",
+             info->src_addr[0], info->src_addr[1], info->src_addr[2],
+             info->src_addr[3], info->src_addr[4], info->src_addr[5]);
+
+    ESP_LOGI("ESPNOW", "Data: %.*s", len, data);
+    printf("%s", (char *)data);
 }
 
 /* wifi must be started before esp now is initialized*/
@@ -28,13 +36,11 @@ void esp_now_setup(void)
     memset(peer, 0, sizeof(esp_now_peer_info_t));
 
     /* peer params*/
-    uint8_t peer_mac_addr[6]= {};    // MAC address of the receiver
+    uint8_t peer_mac_addr[6]= {0x98, 0x88, 0xE0, 0x14, 0xCE, 0xE8};    // MAC address of the receiver
+    memcpy(peer->peer_addr, peer_mac_addr, 6);
     peer->channel = 0;
     peer->ifidx = WIFI_IF_STA;
     peer->encrypt = false;
     esp_now_add_peer(peer);
     free(peer);   
-
-    char msg[] = "Hello ESP-NOW";
-    esp_now_send(peer->peer_addr, (uint8_t *)msg ,sizeof(msg));
 }
