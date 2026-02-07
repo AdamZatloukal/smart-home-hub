@@ -55,8 +55,9 @@ void wifi_webserver(void *parameter)
 
     /* START WEBSERVER */
     httpd_handle_t server_instance = start_webserver();
-    vTaskResume(task_read_mic_handle);  // when we connect to wifi we can send post requests
-    esp_now_setup();
+    //vTaskResume(task_read_mic_handle);  // when we connect to wifi we can send post requests
+    //esp_now_setup();
+    start_client();
 
     // add: if wifi disconnects check and reconnect
     while (true)
@@ -115,6 +116,7 @@ extern "C" void app_main(void)
         nvs_flash_init();
     }
 
+    /*
     i2s_init();
 
     xTaskCreatePinnedToCore(read_mic,
@@ -124,6 +126,7 @@ extern "C" void app_main(void)
                             1,
                             &task_read_mic_handle,
                             0);
+    */
 
     xTaskCreatePinnedToCore(wifi_webserver,
                             "wifi",

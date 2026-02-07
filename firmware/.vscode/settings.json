@@ -16,6 +16,7 @@
     "--query-driver=**",
     "--compile-commands-dir=c:\\Users\\zatlo\\OneDrive\\projects\\Embedded\\ESP32\\smart-home-hub\\firmware\\build"
   ],
-  "idf.portWin": "COM9",
-  "idf.flashType": "UART"
+  "idf.portWin": "COM4",
+  "idf.flashType": "JTAG",
+  "idf.currentSetup": "C:/Users/zatlo/OneDrive/esp/v5.5/"
 }
