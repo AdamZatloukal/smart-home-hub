@@ -1,98 +1,58 @@
-import { useState } from "react";
+import { fetch } from 'expo/fetch';
 import { FlatList, View } from "react-native";
+import { backend } from "../constants/BackendInfo";
+import { colorDataType, colorDataTypeSingle } from '../data/colorData';
 import { styles } from "../styles/ColorListPartial";
-import ColorItem, { ColorItemType } from "./ColorItem";
-
-type dataType = {
-    id: string,
-    color: string
-}[]
-
-const dataTest: dataType = [
-    {
-        id: "1",
-        color: "#FF00FF"
-    },
-    {
-        id: "2",
-        color: "#FF0000"
-    },
-    {
-        id: "3",
-        color: "#000000"
-    },
-    {
-        id: "4",
-        color: "#b6a3a3"
-    },
-    {
-        id: "5",
-        color: "#235619"
-    },
-    {
-        id: "6",
-        color: "#4f33cc"
-    },
-    {
-        id: "7",
-        color: "#235619"
-    },
-    {
-        id: "8",
-        color: "#4f33cc"
-    },
-    {
-        id: "9",
-        color: "#b6a3a3"
-    },
-    {
-        id: "10",
-        color: "#235619"
-    },
-    {
-        id: "11",
-        color: "#4f33cc"
-    },
-    {
-        id: "12",
-        color: "#235619"
-    },
-    {
-        id: "13",
-        color: "#4f33cc"
-    },
-    {
-        id: "14",
-        color: "#b6a3a3"
-    },
-    {
-        id: "15",
-        color: "#235619"
-    }
-]
+import { hexToRGB } from '../utils/hexrgb';
+import ColorItem from "./ColorItem";
 
 type ColorListProps = {
     enableScroll: boolean
-    data?: dataType
+    data: colorDataType
     width?: number
     marginBottom?: number
+    setSelectedId: Function
+    selectedId: string,
+    onlyRenderFavourite: boolean
 }
 
-function ColorList({enableScroll, data, width, marginBottom}: ColorListProps) {
-    const [selectedId, setSelectedId] = useState<string>()
+async function postDataColor(hex: string) {
+    const RGBdata = hexToRGB(hex)
 
+    const res = await fetch(backend.postUrlColor, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(RGBdata)
+    })
+    const result = await res.text()
+    console.log(result) // debug
+}
+
+function ColorList({ enableScroll, data, width, marginBottom, setSelectedId, selectedId, onlyRenderFavourite }: ColorListProps) {
     return (
         <View
-            style={[styles.container, {width: width, marginBottom: marginBottom ?? 50}]}
+            style={[styles.container, { width: width, marginBottom: marginBottom ?? 50 }]}
         >
-            <FlatList<ColorItemType>
-                data={data ?? dataTest}
+            <FlatList<colorDataTypeSingle>
+                data={data}
                 renderItem={({ item }) => {
-                    const borderWidth = item.id === selectedId ? 2 : 0;
+                    const borderWidth = item.color === selectedId ? 2 : 0;
 
-                    return <ColorItem color={item.color} onPress={() => setSelectedId(item.id)} borderWidth={borderWidth} />
+                    if (onlyRenderFavourite && (!item.isFavourite)) {
+                        return null;
+                    }
+
+                    return <ColorItem
+                        color={item.color}
+                        onPress={() => {
+                            setSelectedId(item.color)       // each color is unique -> hex code is the id
+                            postDataColor(item.color)
+                        }}
+                        borderWidth={borderWidth} />
                 }}
-                keyExtractor={(item) => item.id}
+                keyExtractor={(item) => item.color}
                 extraData={selectedId}
                 scrollEnabled={enableScroll}
                 horizontal={true}

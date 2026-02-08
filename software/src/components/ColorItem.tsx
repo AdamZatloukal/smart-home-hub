@@ -8,11 +8,6 @@ type ColorItemProps = {
     text?: string
 }
 
-export type ColorItemType = {
-    color: string,
-    id: string
-}
-
 function ColorItem({ color, onPress, borderWidth, text }: ColorItemProps) {
     return (
         <Pressable
