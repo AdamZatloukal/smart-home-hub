@@ -48,7 +48,7 @@ void i2s_init(void)
         .bit_shift = true,                          // since the MSB of each word is delays one SCK cycle from the start of the half-frame
         .left_align = true,                         // MSB first
         .bit_order_lsb = false,                     // LSB is NOT first
-        .big_endian = false                         // least significant bytte is transmitted first (little endian)
+        .big_endian = false                         // least significant byte is transmitted first (little endian)
     };
 
     /* slot is one half of a frame (sample) - so left and right - we only use left */
